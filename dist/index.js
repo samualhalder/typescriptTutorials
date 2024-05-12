@@ -1,5 +1,5 @@
 "use strict";
-//way to declare a variable
+//way to declare a variable ------------>
 var a = "samual";
 a = "true";
 var b;
@@ -20,7 +20,16 @@ const fun2 = (n, m) => {
 };
 let x = fun2("value", 14);
 // console.log(x);
-// Arrey ->
+// Arrey ------------->
 const arr1 = [2, 3, 4, 5];
 const arr2 = [2, 4, 4, 4];
 const arr3 = ['a', 2, 4, 4, 4, "samual"];
+const studnet1 = {
+    name: "samual halder",
+    id: 112,
+    pass: true
+};
+const sudent2 = {
+    name: "sayan das",
+    id: 110,
+};

@@ -1,4 +1,4 @@
-//way to declare a variable
+//way to declare a variable ------------>
 var a:string="samual"
 a="true"
 var b:string|number;
@@ -26,10 +26,28 @@ const fun2=(n:string,m:number):number =>{
 let x:number=fun2("value",14)
 // console.log(x);
 
-// Arrey ->
+// Arrey ------------->
  
 const arr1:number[]=[2,3,4,5]
 
 const arr2:Array<number>=[2,4,4,4]
 
 const arr3:Array<number | string>=['a',2,4,4,4,"samual"]
+
+
+//Objects----------->
+type Student={
+    name:string,
+    id:number,          //<---type declaraiton of the object
+    pass?:boolean
+}
+
+const studnet1:Student={
+    name:"samual halder",
+    id:112,
+    pass:true
+}
+const sudent2:Student={
+    name:"sayan das",
+    id:110,
+}
