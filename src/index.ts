@@ -24,5 +24,12 @@ const fun2=(n:string,m:number):number =>{
 }
 
 let x:number=fun2("value",14)
-console.log(x);
+// console.log(x);
 
+// Arrey ->
+ 
+const arr1:number[]=[2,3,4,5]
+
+const arr2:Array<number>=[2,4,4,4]
+
+const arr3:Array<number | string>=['a',2,4,4,4,"samual"]

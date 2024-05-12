@@ -19,4 +19,8 @@ const fun2 = (n, m) => {
     return m * 10;
 };
 let x = fun2("value", 14);
-console.log(x);
+// console.log(x);
+// Arrey ->
+const arr1 = [2, 3, 4, 5];
+const arr2 = [2, 4, 4, 4];
+const arr3 = ['a', 2, 4, 4, 4, "samual"];
