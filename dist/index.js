@@ -33,3 +33,17 @@ const sudent2 = {
     name: "sayan das",
     id: 110,
 };
+// CLASSES --------------------->
+class Engineer {
+    constructor(name, role, salary) {
+        this.getRole = () => {
+            return `my role is ${this.role}`;
+        };
+        this.name = name,
+            this.role = role,
+            this.salary = salary;
+    }
+}
+const Eng1 = new Engineer("Samual", "IT", 500000);
+console.log(Eng1.name);
+console.log(Eng1.getRole());

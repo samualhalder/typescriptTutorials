@@ -51,3 +51,27 @@ const sudent2:Student={
     name:"sayan das",
     id:110,
 }
+
+// CLASSES --------------------->
+
+class Engineer{
+   name;
+  private salary;// only access in the class
+  protected role; // acessesable in its child classed 
+   constructor(name:string,role:string,salary:number){
+    this.name=name,
+    this.role=role,
+    this.salary=salary
+   }
+   getRole=():string =>{
+        return `my role is ${this.role}`
+   }
+}
+
+const Eng1=new Engineer("Samual","IT",500000)
+
+console.log(Eng1.name);
+console.log(Eng1.getRole());
+
+
+
