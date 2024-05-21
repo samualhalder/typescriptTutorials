@@ -74,4 +74,24 @@ console.log(Eng1.name);
 console.log(Eng1.getRole());
 
 
+// GENERICS ------------------------------------->
+
+
+const aFun=<T>(n:T):T=>{
+    console.log(`the value is ${n}`);
+    return n;
+}
+// aFun("my mom")
+type Person={
+    name:string,
+    age:number
+}
+const person1:Person={
+    name:"samual",
+    age:56
+}
+
+const value:Person=aFun(person1) //also heaps to pass random type data set
+console.log(value);
+
 

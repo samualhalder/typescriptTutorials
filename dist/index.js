@@ -47,3 +47,14 @@ class Engineer {
 const Eng1 = new Engineer("Samual", "IT", 500000);
 console.log(Eng1.name);
 console.log(Eng1.getRole());
+// GENERICS ------------------------------------->
+const aFun = (n) => {
+    console.log(`the value is ${n}`);
+    return n;
+};
+const person1 = {
+    name: "samual",
+    age: 56
+};
+const value = aFun(person1); //also heaps to pass random type data set
+console.log(value);
